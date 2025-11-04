@@ -1,0 +1,50 @@
+This is the feedback I received on the initial submission of this code. I will be updating the code periodically to ensure that these issues are adressed.
+1) Small set of data has been taken (200), which has been defined. However,a slightly larger set, like 500-700 could be used, since it's still quitesmall for research purposes but still give a better, randomized result.
+2) Some improvements could include handling negative susceptible counts, smoothing noisy daily data.
+3) the write up was lacking certain parameters and so did the presentation, making it difficukt to follow through and understand things perfectly.
+4) The use of real world data was very nice to see. Perhaps checks for missing data could be added?
+5) The integration of real-world data with theoretical epidemiological modeling makes the analysis both practical and academically valuable. However, using daily or 
+active case counts instead of cumulative data could have provided a more accurate and directly comparable representation of the infection trends.
+6) Improvement in parameter justification (e.g., β for unvaccinated not cited). Methodology is explained well, but the report could benefit from summarizing results in 
+plain language (e.g., what the graphs show about the effectiveness of vaccination) rather than leaving all interpretation to the reader. Could enhance the model’s realism by
+incorporating vaccination rates over time or expanding to SEIR/compartmental variations.
+7) Could be explored more by integrating
+more models like Agent Based Modelling
+
+
+
+The comparison between theoretically
+deterministic patterns and real-world patterns is great, but the project felt
+like an easy extension of the SIR model.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Yahita's
+project is a thoughtful application of the SIR model to real COVID-19 data
+from Kerala, showing both technical skill and genuine engagement with the
+topic. The use of Pandas for data handling and Matplotlib for clear subplot
+comparisons makes the results easy to follow, and her reflections highlight
+meaningful learning. The main limitations lie in the way the
+"Susceptible" and "Infected" populations are calculated
+using daily new cases rather than active cases and in the reliance on
+hardcoded parameter values, which reduce the model’s accuracy. The code also
+repeats calculations that could be streamlined. Overall, it’s a
+well-organized and relevant project with strong clarity, though refinements
+to data interpretation would make the results more reliable.
+Continuous Evaluation Assignment: Week 4
