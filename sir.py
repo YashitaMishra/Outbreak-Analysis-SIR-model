@@ -1,6 +1,6 @@
 import pandas as pd    #Since the data is in a csv file, pandas helps with accessing data better.
 import matplotlib.pyplot as plt  #To plot the graphs for the different cases better.
-data = pd.read_csv("covid_19_india.csv") #Accessing the data easily since it is stored in a variable making it easy to re-use.
+data = pd.read_csv("covid_19_india.csv") #Accessing the data easily since it is stored in a variable making it easy to re-use. This data can be accessed from the README
 print(data.columns) #-> done to check the names of columns
 # Converting the 'Date' column to datetime format so that it can be sorted into vaccinated and unvaccinated groups.
 data['Date'] = pd.to_datetime(data['Date'], dayfirst=True)   #dayfirst=True is used if the format is DD-MM-YYYY
