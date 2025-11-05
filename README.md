@@ -23,4 +23,4 @@ pip install matplotlib
 Additional comments:
 Source for dataset for covid — https://www.kaggle.com/datasets/sudalairajkumar/covid19-in-india?resource=download&select=covid_19_india.csv
 
-The file output.png shows the plots that the code produces. For other values and rates of 
+The file output.png shows the plots that the code produces. For other values and rates of infections you can tweak the respective values and get plots accordingly. This model can be used for other datasets as well.
