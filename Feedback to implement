@@ -1,5 +1,6 @@
 This is the feedback I received on the initial submission of this code. I will be updating the code periodically to ensure that these issues are adressed.
-1) Small set of data has been taken (200), which has been defined. However,a slightly larger set, like 500-700 could be used, since it's still quitesmall for research purposes but still give a better, randomized result.
+1) Small set of data has been taken (200), which has been defined. However,a slightly larger set, like 500-700 could be used, since it's still quite small for research 
+purposes but still give a better, randomized result.
 2) Some improvements could include handling negative susceptible counts, smoothing noisy daily data.
 3) the write up was lacking certain parameters and so did the presentation, making it difficukt to follow through and understand things perfectly.
 4) The use of real world data was very nice to see. Perhaps checks for missing data could be added?
